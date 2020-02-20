@@ -2,10 +2,12 @@
 
 require_relative '../lib/turn.rb'
 
+  
+  
   puts "Welcome to Tic Tac Toe!"
   display_board(board)
   
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  
   
   puts ""
   
