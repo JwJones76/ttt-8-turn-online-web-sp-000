@@ -7,14 +7,6 @@ require_relative '../lib/turn.rb'
   puts "Welcome to Tic Tac Toe!"
   display_board(board)
   turn(board)
-  turn(board)
-  turn(board)
-  turn(board)
-  turn(board)
-  turn(board)
-  turn(board)
-  turn(board)
-  turn(board)
   
   puts ""
   
@@ -25,3 +17,4 @@ require_relative '../lib/turn.rb'
   move(board, converted_input, "X")
   
   display_board(board)#
+  
